@@ -1,0 +1,112 @@
+## AI and Manual Code Documentation
+
+This document outlines which parts of the codebase were generated with AI assistance and which parts were manually modified.
+
+### Components
+
+#### Hero Component (`src/components/Hero.tsx`)
+
+**AI-Generated Parts:**
+- Basic component structure and layout
+- Tailwind CSS styling classes
+- React state management hooks
+- Background gradient animation
+- Button components structure
+
+**Manual Modifications:**
+- Text-to-speech implementation including:
+  - Voice selection logic
+  - Speech synthesis configuration
+  - Play/stop functionality
+  - Event handlers for speech states
+- Custom text input functionality
+- Responsive design adjustments
+- Addition of aria-labels for accessibility
+- Integration of Lucide icons
+- Implementation of the text input toggle
+- Default introduction text
+
+#### Projects Component (`src/components/Projects.tsx`)
+
+**AI-Generated:**
+- Grid layout structure
+- Project card components
+- Tailwind CSS animations
+- Basic responsive design
+
+**Manual Modifications:**
+- Project data structure
+- Image URLs from Unsplash
+- Tag styling
+- Hover effects
+
+#### About Component (`src/components/About.tsx`)
+
+**AI-Generated:**
+- Section layout
+- Feature grid
+- Icon integration
+- Basic styling
+
+**Manual Modifications:**
+- Content writing
+- Feature descriptions
+- Custom styling for feature cards
+- Image overlay effects
+
+#### Contact Component (`src/components/Contact.tsx`)
+
+**AI-Generated:**
+- Form structure
+- Input field layouts
+- Basic styling
+
+**Manual Modifications:**
+- Form validation
+- Submit button styling
+- Icon integration
+- Responsive adjustments
+
+### Configuration Files
+
+**AI-Generated:**
+- Basic Vite configuration
+- Tailwind CSS setup
+- TypeScript configuration
+
+**Manual Modifications:**
+- ESLint rules
+- Dependencies optimization
+- Module resolution settings
+
+### Notable Custom Implementations
+
+1. Text-to-Speech Feature:
+   - Completely custom implementation
+   - Voice selection algorithm
+   - State management for speech playback
+   - Error handling
+   - Cross-browser compatibility
+
+2. Responsive Design:
+   - Custom breakpoints
+   - Mobile-first approach
+   - Dynamic layout adjustments
+
+3. Accessibility:
+   - ARIA labels
+   - Semantic HTML
+   - Keyboard navigation support
+
+### Development Process
+
+The development process followed these steps:
+
+1. Initial scaffolding using AI assistance
+2. Manual refinement of component structure
+3. Custom implementation of interactive features
+4. Testing and bug fixes
+5. Performance optimizations
+6. Accessibility improvements
+
+This documentation will be updated as new features are added or existing ones are modified.
